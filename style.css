@@ -11,9 +11,7 @@ body{
 header{
     display: inline;
 }
-.container-fluid {
-    padding: 0%;
-}
+
 .a{
     text-decoration: none;
     color:#FFC20B;
@@ -22,7 +20,7 @@ header{
     background-color: #4A858D;
     color:#FFC20B !important;
     text-decoration: none;
-    padding: 0rem 1rem;
+
 }
 .oui{
     background-color:  #4A858D;
@@ -59,7 +57,7 @@ h1{
     font-family: 'Comfortaa', cursive;
 }
 footer{
-    background-color: #4A858D;
+    background-color: #4A858D !important;
     color: #FFC20B !important;
     font-family: 'Comfortaa', cursive;
     font-size: large;
@@ -93,12 +91,13 @@ p{
 .para{
     margin-bottom: 13%;
     margin-top: 3%;
+    font-size: medium;
 }
 /*Blog*/
 .imgB1{
     float: left;
     width: 400px;
-    height: 250px;
+    height: 300px;
     margin-right: 1%;
     margin-bottom: 3%;
     margin-left: 1%;
@@ -108,7 +107,7 @@ p{
 .imgB2{
     float: right;
     width: 400px;
-    height: 250px;
+    height: 300px;
     margin-left: 0%;
     margin-bottom: 3%;
     margin-top: 0%;
@@ -119,7 +118,7 @@ p{
 .imgB3{
     float: left;
     width: 400px;
-    height: 250px;
+    height: 300px;
     margin-right: 1%;
     margin-bottom: 0%;
     margin-top: 0%;
@@ -133,7 +132,7 @@ p{
 }
 .pblog{
     color: white;
-    font-size: small;
+    font-size: medium;
     text-align: left;
     font-family: 'Comfortaa', cursive;
     padding-right: 3%;
@@ -141,7 +140,7 @@ p{
 }
 .pblog1{
     color: white;
-    font-size: small;
+    font-size: medium;
     text-align: right;
     font-family: 'Comfortaa', cursive;
     padding-left: 5%;  
@@ -149,7 +148,7 @@ p{
 }
 .pblog2{
     color: white;
-    font-size: small;
+    font-size: medium;
     text-align: left;
     font-family: 'Comfortaa', cursive;
     padding-right: 3%;
@@ -159,7 +158,7 @@ p{
     background-color: #4A858D;
     margin-left: 31%;
     border-radius: 0px 200px 200px 0px;
-    height: 250px;
+    height: 300px;
     width: 65%;
 }
 .plop1 {
@@ -167,7 +166,7 @@ p{
     margin-left: 4%;
     padding-right: 0%; 
     border-radius: 200px 0px 0px 200px;
-    height: 250px;
+    height: 300px;
     width: 65%;
 }
 
@@ -256,4 +255,686 @@ h2{
     color:#FFC20B;
     border-radius: 1%;
     width: 100%;
+}
+.ppro{
+    font-size: medium;
+    font-family: 'Comfortaa', cursive;
+}
+/*Media queries*/
+@media (max-width: 320px){
+    .imgB1{
+        float: none;
+        display: block;
+        width: 400px;
+        height: 250px;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        border: #FFC20B solid 3px;
+        border-radius: 5%;
+    }
+    .imgB2{
+        float: none;
+        display: block;
+        width: 400px;
+        height: 250px;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        border: #FFC20B solid 3px;
+        border-radius: 5%;
+    }
+    .imgB3{
+        float: none;
+        display: block;
+        width: 400px;
+        height: 250px;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        border: #FFC20B solid 3px;
+        border-radius: 5%;
+    }
+    .pblog  {
+        text-align: justify;
+        margin: 0%;
+        padding-right: 2%;
+        padding-left: 2%;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: small;
+    }
+    .pblog1{
+        text-align: justify;
+        margin: 0%;
+        padding-right: 2%;
+        padding-left: 2%;
+        width: 100%;      
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: small;
+    }
+    .pblog2{
+        text-align: justify;
+        margin: 0%;
+        padding-right: 2%;
+        padding-left: 2%;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: small;
+    }
+    .plop{
+        margin: 0%;
+        color: white;
+        font-size: small;
+        text-align: justify;
+        font-family: 'Comfortaa', cursive;
+        padding-right: 2%;
+        padding-left: 2%;
+        width: 100%;
+        border-radius: 50px 50px 50px 50px;
+        height: 62%;
+        padding-bottom: 5%;
+        background-color: #4A858D;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .plop1{
+        margin: 0%;
+        color: white;
+        font-size: small;
+        text-align: justify;
+        font-family: 'Comfortaa', cursive;
+        padding-right: 0%;
+        width: 100%;
+        border-radius: 50px 50px 50px 50px;
+        height: 62%;
+        padding-bottom: 5%;
+        background-color: #4A858D;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .titrbl1{
+        color:#FFC20B;
+        font-family: 'Comfortaa', cursive;
+        font-size: large;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .titrbl{
+        color:#FFC20B;
+        font-family: 'Comfortaa', cursive;
+        font-size: large;
+        text-align: center;
+    }
+    .logoxs{
+        position: absolute;
+        width: 26%;
+        float: left;
+        border: #FFC20B solid 1px;
+        margin-top: -4.3%;
+        border-radius: 10px;
+    }
+    .cimg{
+        width: 290px;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        border-color: #FFC20B!important;
+        border-radius: 10px;
+        border-style: solid;
+    }
+    .logo{
+        width: 50%;
+        margin-top: 4%;
+        border-radius: 5%;
+        border: #FFC20B solid 3px;
+    }
+    .nav-link{
+        color: black !important;
+        font-family: 'Comfortaa', cursive;
+        font-size: medium;
+        padding: 4px;
+        text-align: right;
+    }
+    .ppro{
+        font-size: small;
+        font-family: 'Comfortaa', cursive;
+    }
+    .pindex{
+        font-size: small;
+    }
+}
+@media (min-width: 426px) and (max-width: 768px){
+    .imgB1{
+        float: none;
+        display: block;
+        width: 60%;
+        height: 40%;
+        border: #FFC20B solid 3px;
+        border-radius: 5%;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        margin-left: 23%;
+    }
+    .imgB2{
+        float: none;
+        display: block;
+        width: 60%;
+        height: 40%;
+        border: #FFC20B solid 3px;
+        border-radius: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 23%;
+    }
+    .imgB3{
+        float: none;
+        display: block;
+        width: 60%;
+        height: 40%;
+        border: #FFC20B solid 3px;
+        border-radius: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 23%;
+    }
+    .pblog{
+        text-align: left;
+        margin: 0%;
+        padding-right: 5%;
+        padding-left: 2%;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: small;
+    }
+    .pblog1{
+        text-align: right;
+        margin: 0%;
+        padding-right: 2%;
+        padding-left: 4%;
+        width: 100%;
+        margin-top: 3%;
+        margin-bottom: 5%;
+        font-size: small;
+    }
+    .pblog2{
+        text-align: left;
+        margin: 0%;
+        padding-right: 5%;
+        padding-left: 2%;
+        width: 100%;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        font-size: small;
+    }
+    .plop{
+        background-color: #4A858D;
+        margin-left: 0%;
+        border-radius: 0px 200px 200px 0px;
+        height: 300px;
+        width: 100%;
+        border-bottom: 3%;
+    }
+    .plop1{
+        background-color: #4A858D;
+        margin-left: 0%;
+        padding-right: 0%;
+        border-radius: 200px 0px 0px 200px;
+        height: 300px;
+        width: 100%;
+        border-bottom: 3%;
+    }
+    .para{
+        margin-bottom: 13%;
+        margin-top: 3%;
+    }
+    p{
+        color: white;
+        text-align: justify;
+        font-family: 'Comfortaa', cursive;
+        font-size: small;
+    }
+    .ppro{
+        font-size: small;
+        font-family: 'Comfortaa', cursive;
+    }
+    .logo{
+        width: 50%;
+        margin-top: 4%;
+        border-radius: 5%;
+        border: #FFC20B solid 3px;
+    }
+    .pindex{
+        font-size: small;
+    }
+}
+@media (min-width: 321px) and (max-width: 375px){
+    .imgB1{
+        float: none;
+        display: block;
+        width: 400px;
+        height: 250px;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        border: #FFC20B solid 3px;
+        border-radius: 5%;
+    }
+    .imgB2{
+        float: none;
+        display: block;
+        width: 400px;
+        height: 250px;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        border: #FFC20B solid 3px;
+        border-radius: 5%;
+    }
+    .imgB3{
+        float: none;
+        display: block;
+        width: 400px;
+        height: 250px;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        border: #FFC20B solid 3px;
+        border-radius: 5%;
+    }
+    .pblog  {
+        text-align: justify;
+        margin: 0%;
+        padding-right: 2%;
+        padding-left: 2%;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: small;
+    }
+    .pblog1{
+        text-align: justify;
+        margin: 0%;
+        padding-right: 2%;
+        padding-left: 2%;
+        width: 100%;      
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: small;
+    }
+    .pblog2{
+        text-align: justify;
+        margin: 0%;
+        padding-right: 2%;
+        padding-left: 2%;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: small;
+    }
+    .plop{
+        margin: 0%;
+        color: white;
+        font-size: small;
+        text-align: justify;
+        font-family: 'Comfortaa', cursive;
+        padding-right: 2%;
+        padding-left: 2%;
+        width: 100%;
+        border-radius: 50px 50px 50px 50px;
+        height: 62%;
+        padding-bottom: 5%;
+        background-color: #4A858D;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .plop1{
+        margin: 0%;
+        color: white;
+        font-size: small;
+        text-align: justify;
+        font-family: 'Comfortaa', cursive;
+        padding-right: 0%;
+        width: 100%;
+        border-radius: 50px 50px 50px 50px;
+        height: 62%;
+        padding-bottom: 5%;
+        background-color: #4A858D;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .titrbl1{
+        color:#FFC20B;
+        font-family: 'Comfortaa', cursive;
+        font-size: large;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .titrbl{
+        color:#FFC20B;
+        font-family: 'Comfortaa', cursive;
+        font-size: large;
+        text-align: center;
+    }
+    .logoxs{
+        position: absolute;
+        width: 26%;
+        float: left;
+        border: #FFC20B solid 1px;
+        margin-top: -4.3%;
+        border-radius: 10px;
+    }
+    .cimg{
+        width: 290px;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        border-color: #FFC20B!important;
+        border-radius: 10px;
+        border-style: solid;
+    }
+    .logo{
+        width: 50%;
+        margin-top: 4%;
+        border-radius: 5%;
+        border: #FFC20B solid 3px;
+    }
+    .nav-link{
+        color: black !important;
+        font-family: 'Comfortaa', cursive;
+        font-size: medium;
+        padding: 4px;
+        text-align: right;
+    }
+    .ppro{
+        font-size: small;
+        font-family: 'Comfortaa', cursive;
+    }
+    .pindex{
+        font-size: small;
+    }
+}
+@media (min-width: 376px) and (max-width: 425px){                               /*blablabla*/
+    .imgB1{
+        float: none;
+        display: block;
+        width: 400px;
+        height: 250px;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        border: #FFC20B solid 3px;
+        border-radius: 5%;
+    }
+    .imgB2{
+        float: none;
+        display: block;
+        width: 400px;
+        height: 250px;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        border: #FFC20B solid 3px;
+        border-radius: 5%;
+    }
+    .imgB3{
+        float: none;
+        display: block;
+        width: 400px;
+        height: 250px;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        border: #FFC20B solid 3px;
+        border-radius: 5%;
+    }
+    .pblog  {
+        text-align: justify;
+        margin: 0%;
+        padding-right: 2%;
+        padding-left: 2%;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: small;
+    }
+    .pblog1{
+        text-align: justify;
+        margin: 0%;
+        padding-right: 2%;
+        padding-left: 2%;
+        width: 100%;      
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: small;
+    }
+    .pblog2{
+        text-align: justify;
+        margin: 0%;
+        padding-right: 2%;
+        padding-left: 2%;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: small;
+    }
+    .plop{
+        margin: 0%;
+        color: white;
+        font-size: small;
+        text-align: justify;
+        font-family: 'Comfortaa', cursive;
+        padding-right: 2%;
+        padding-left: 2%;
+        width: 100%;
+        border-radius: 50px 50px 50px 50px;
+        height: 62%;
+        padding-bottom: 5%;
+        background-color: #4A858D;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .plop1{
+        margin: 0%;
+        color: white;
+        font-size: small;
+        text-align: justify;
+        font-family: 'Comfortaa', cursive;
+        padding-right: 0%;
+        width: 100%;
+        border-radius: 50px 50px 50px 50px;
+        height: 62%;
+        padding-bottom: 5%;
+        background-color: #4A858D;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .titrbl1{
+        color:#FFC20B;
+        font-family: 'Comfortaa', cursive;
+        font-size: large;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .titrbl{
+        color:#FFC20B;
+        font-family: 'Comfortaa', cursive;
+        font-size: large;
+        text-align: center;
+    }
+    .logoxs{
+        position: absolute;
+        width: 26%;
+        float: left;
+        border: #FFC20B solid 1px;
+        margin-top: -4.3%;
+        border-radius: 10px;
+    }
+    .cimg{
+        width: 290px;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        border-color: #FFC20B!important;
+        border-radius: 10px;
+        border-style: solid;
+    }
+    .logo{
+        width: 50%;
+        margin-top: 4%;
+        border-radius: 5%;
+        border: #FFC20B solid 3px;
+    }
+    .nav-link{
+        color: black !important;
+        font-family: 'Comfortaa', cursive;
+        font-size: medium;
+        padding: 4px;
+        text-align: right;
+    }
+    .ppro{
+        font-size: small;
+        font-family: 'Comfortaa', cursive;
+    }
+    .pindex{
+        font-size: small;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px){                               /*blablabla*/
+    .imgB1{
+        float: none;
+        display: block;
+        width: 400px;
+        height: 250px;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        border: #FFC20B solid 3px;
+        border-radius: 5%;
+    }
+    .imgB2{
+        float: none;
+        display: block;
+        width: 400px;
+        height: 250px;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        border: #FFC20B solid 3px;
+        border-radius: 5%;
+    }
+    .imgB3{
+        float: none;
+        display: block;
+        width: 400px;
+        height: 250px;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        border: #FFC20B solid 3px;
+        border-radius: 5%;
+    }
+    .pblog  {
+        text-align: justify;
+        margin: 0%;
+        padding-right: 2%;
+        padding-left: 2%;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: small;
+    }
+    .pblog1{
+        text-align: justify;
+        margin: 0%;
+        padding-right: 2%;
+        padding-left: 2%;
+        width: 100%;      
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: small;
+    }
+    .pblog2{
+        text-align: justify;
+        margin: 0%;
+        padding-right: 2%;
+        padding-left: 2%;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: small;
+    }
+    .plop{
+        margin: 0%;
+        color: white;
+        font-size: small;
+        text-align: justify;
+        font-family: 'Comfortaa', cursive;
+        padding-right: 2%;
+        padding-left: 2%;
+        width: 100%;
+        border-radius: 50px 50px 50px 50px;
+        height: 62%;
+        padding-bottom: 5%;
+        background-color: #4A858D;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .plop1{
+        margin: 0%;
+        color: white;
+        font-size: small;
+        text-align: justify;
+        font-family: 'Comfortaa', cursive;
+        padding-right: 0%;
+        width: 100%;
+        border-radius: 50px 50px 50px 50px;
+        height: 62%;
+        padding-bottom: 5%;
+        background-color: #4A858D;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .titrbl1{
+        color:#FFC20B;
+        font-family: 'Comfortaa', cursive;
+        font-size: large;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .titrbl{
+        color:#FFC20B;
+        font-family: 'Comfortaa', cursive;
+        font-size: large;
+        text-align: center;
+    }
+    .logoxs{
+        position: absolute;
+        width: 26%;
+        float: left;
+        border: #FFC20B solid 1px;
+        margin-top: -4.3%;
+        border-radius: 10px;
+    }
+    .cimg{
+        width: 290px;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        border-color: #FFC20B!important;
+        border-radius: 10px;
+        border-style: solid;
+    }
+    .logo{
+        width: 50%;
+        margin-top: 4%;
+        border-radius: 5%;
+        border: #FFC20B solid 3px;
+    }
+    .nav-link{
+        color: black !important;
+        font-family: 'Comfortaa', cursive;
+        font-size: medium;
+        padding: 4px;
+        text-align: right;
+    }
+    .ppro{
+        font-size: small;
+        font-family: 'Comfortaa', cursive;
+    }
+    .pindex{
+        font-size: small;
+    }
 }
